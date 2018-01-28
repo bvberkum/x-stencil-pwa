@@ -1,3 +1,13 @@
+Demo
+
+:   \<<https://dot-degree.glitch.me/>\>
+
+Edit
+
+:   \<<https://glitch.com/edit/#!/dot-degree>\>
+
+<!-- -->
+
 2018-01-27
 
 :   [Stencil](https://stenciljs.com/pwa) is a nice framework for

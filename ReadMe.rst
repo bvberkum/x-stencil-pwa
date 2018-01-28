@@ -1,3 +1,6 @@
+:Demo: <https://dot-degree.glitch.me/>
+:Edit: <https://glitch.com/edit/#!/dot-degree>
+
 2018-01-27
     `Stencil`_ is a nice framework for developing web-components. Native
     use of JSX and SCSS, ES5 syntax. Part of its `PWA`_ formula is
