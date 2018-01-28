@@ -11,6 +11,36 @@ import {
 } from '@stencil/router';
 
 import {
+  AppDefault as AppDefault
+} from './components/app-default/app-default';
+
+declare global {
+  interface HTMLAppDefaultElement extends AppDefault, HTMLElement {
+  }
+  var HTMLAppDefaultElement: {
+    prototype: HTMLAppDefaultElement;
+    new (): HTMLAppDefaultElement;
+  };
+  interface HTMLElementTagNameMap {
+    "app-default": HTMLAppDefaultElement;
+  }
+  interface ElementTagNameMap {
+    "app-default": HTMLAppDefaultElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      "app-default": JSXElements.AppDefaultAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface AppDefaultAttributes extends HTMLAttributes {
+      
+    }
+  }
+}
+
+
+import {
   AppHome as AppHome
 } from './components/app-home/app-home';
 
