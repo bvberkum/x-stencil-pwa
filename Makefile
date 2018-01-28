@@ -5,4 +5,8 @@ ReadMe.md: ReadMe.rst
 ReadMe.html: ReadMe.rst
 	pandoc $^ -o $@
 
-update-docs: ReadMe.md ReadMe.html
+#		ReadMe.md
+TRGT := \
+	  ReadMe.html
+
+update-docs: $(TRGT)
