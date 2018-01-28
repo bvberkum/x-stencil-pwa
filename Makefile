@@ -5,8 +5,12 @@ ReadMe.md: ReadMe.rst
 ReadMe.html: ReadMe.rst
 	pandoc $^ -o $@
 
-#		ReadMe.md
 TRGT := \
+		ReadMe.md \
 	  ReadMe.html
 
+.PHONY: update-docs all
+
 update-docs: $(TRGT)
+
+all: update-docs
