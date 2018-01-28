@@ -1,5 +1,6 @@
 :Demo: <https://dot-degree.glitch.me/>
 :Edit: <https://glitch.com/edit/#!/dot-degree>
+:Repo: <https://github.com/bvberkum/x-stencil-pwa>
 
 2018-01-27
     `Stencil`_ is a nice framework for developing web-components. Native
