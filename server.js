@@ -5,7 +5,7 @@ const stencil = require('@stencil/core/server');
 const app = express();
 
 // set which port express it will be using
-const port = 3030;
+const port = 5000;
 
 // load the stencil config
 const config = stencil.loadConfig(__dirname);
