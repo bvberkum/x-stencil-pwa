@@ -1,0 +1,7 @@
+sitefile: 0.0.7-dev
+host: localhost
+port: 8082
+routes:
+  '': redir:app/home
+  app: stencil:sitefile:stencil.config.js
+  '': static:www
